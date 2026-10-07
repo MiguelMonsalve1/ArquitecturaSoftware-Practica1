@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentaCare.Legacy", "src\DentaCare.Legacy\DentaCare.Legacy.csproj", "{3B842BAE-3609-464D-94F7-3A61E91533DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DentaCare.Refactored", "DentaCare.Refactored", "{33D7A495-8737-A930-71E3-C238AB688B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalCare.Refactored", "src\DentaCare.Refactored\DentalCare.Refactored.csproj", "{A027627C-F4E3-4587-906A-9332E158EA1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|x64.Build.0 = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Debug|x86.Build.0 = Debug|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|x64.ActiveCfg = Release|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|x64.Build.0 = Release|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|x86.ActiveCfg = Release|Any CPU
+		{3B842BAE-3609-464D-94F7-3A61E91533DF}.Release|x86.Build.0 = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|x64.Build.0 = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{A027627C-F4E3-4587-906A-9332E158EA1A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B842BAE-3609-464D-94F7-3A61E91533DF} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{33D7A495-8737-A930-71E3-C238AB688B51} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{A027627C-F4E3-4587-906A-9332E158EA1A} = {33D7A495-8737-A930-71E3-C238AB688B51}
+	EndGlobalSection
+EndGlobal
